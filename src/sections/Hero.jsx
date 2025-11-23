@@ -11,6 +11,7 @@ import Cube from "../components/Cube";
 import Rings from "../components/Rings";
 import HeroCamera from "../components/HeroCamera";
 import Button from "../components/Button";
+import Javascript from "../components/Javascript";
 
 function Hero() {
   const isSmall = useMediaQuery({ maxWidth: 440 });
@@ -46,6 +47,7 @@ function Hero() {
             <group>
               {/* <Target position={sizes.targetPosition} scale={2} /> */}
               <ReactLogo position={sizes.reactLogoPosition} scale={0.5} />
+              <Javascript position={sizes.targetPosition} scale={3} />
               <Cube position={sizes.cubePosition} />
               {/* <Rings position={[-25, 12, 0]} /> */}
               <Rings position={sizes.ringPosition} />

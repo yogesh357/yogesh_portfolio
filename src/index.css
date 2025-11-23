@@ -28,6 +28,23 @@ body {
 }
 
 
+/* .hover-underline {
+  background-image: linear-gradient(to right, white, white);
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  background-position: 0 100%;
+  transition: background-size 0.3s ease-out;
+  cursor: pointer;
+} */
+.hover-underline {
+  background-image: linear-gradient(to right, #00c6ff, #0072ff);
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  background-position: 0 100%;
+  transition: background-size 0.3s ease-out;
+  cursor: pointer;
+}
+ 
 
 @layer utilities {
   /* .arrow-gradient {
