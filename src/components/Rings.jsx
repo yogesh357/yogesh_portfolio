@@ -39,13 +39,13 @@ const Rings = ({ position }) => {
         );
     },
     {
-      dependencies: position,
+      dependencies: [position], // ✅ Minor fix: ensure dependencies is an array
     }
   );
 
   return (
     // <Center>
-    <group position={position}  scale={0.5}>
+    <group position={position} scale={0.5}>
       {Array.from({ length: 4 }, (_, index) => (
         <mesh key={index} ref={getRef}>
           <torusGeometry args={[(index + 1) * 0.5, 0.1]}></torusGeometry>
@@ -56,5 +56,6 @@ const Rings = ({ position }) => {
     // </Center>
   );
 };
+useTexture.preload("textures/rings.png");
 
 export default Rings;
