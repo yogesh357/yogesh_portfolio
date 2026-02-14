@@ -299,29 +299,52 @@ export const workExperiences = [
     icon: "/assets/erc_icon.jpg",
     animation: "victory",
   },
+
   {
     id: 2,
-    name: "Cannibals Media",
-    pos: "Content Research & Analysis Intern",
-    duration: " 1 - Oct - 2025 to 31 - Oct - 2025",
-    title: 'Content Research Intern - Cannibals Media',
+    name: "Influx",
+    pos: "Frontend Developer Intern",
+    duration: "6-Jan-2026 to 6-Feb-2026",
+
     title1:
-      "Completed a one-month internship at Cannibals Media in October 2025, where I conducted analytical research on assigned topics and published detailed content on Google Reviews.",
+      "Worked as a Frontend Developer Intern at Influx, contributing to the design and development of responsive web interfaces React.",
+
     title2:
-      " Demonstrated strong communication, coordination, and analytical skills while maintaining accuracy and attention to detail throughout the internship.",
-    icon: "/assets/cannibals_media_logo.png",
-    animation: "clapping",
-  },
-  {
-    id: 3,
-    name: "Prodigy InfoTech",
-    pos: "Full-Stack Web Development inter",
-    duration: "1 - NOV Current",
-    title1:
-      "Selected for the Full-Stack Web Development Internship Program at Prodigy InfoTech, where I gained hands-on experience in building and deploying full-stack applications.",
-    title2:
-      " The internship focused on enhancing practical skills in front-end and back-end development, task management, and professional communication through structured project-based learning.",
-    icon: "/assets/prodigyinfotech_logo.svg",
+      "Improved UI/UX by optimizing layouts, enhancing accessibility, and refining user interactions, resulting in better usability and performance across devices.",
+
+    title3:
+      "Collaborated with designers and backend developers to integrate APIs, fix UI bugs, and deliver production-ready features on schedule.",
+
+    title4:
+      "Gained practical experience in component-based architecture, version control with Git, and industry-standard development workflows.",
+
+    icon: "/assets/influx_logo.svg",
     animation: "salute",
-  },
+  }
+
+  // {
+  //   id: 2,
+  //   name: "Cannibals Media",
+  //   pos: "Content Research & Analysis Intern",
+  //   duration: " 1 - Oct - 2025 to 31 - Oct - 2025",
+  //   title: 'Content Research Intern - Cannibals Media',
+  //   title1:
+  //     "Completed a one-month internship at Cannibals Media in October 2025, where I conducted analytical research on assigned topics and published detailed content on Google Reviews.",
+  //   title2:
+  //     " Demonstrated strong communication, coordination, and analytical skills while maintaining accuracy and attention to detail throughout the internship.",
+  //   icon: "/assets/cannibals_media_logo.png",
+  //   animation: "clapping",
+  // },
+  // {
+  //   id: 3,
+  //   name: "Prodigy InfoTech",
+  //   pos: "Full-Stack Web Development inter",
+  //   duration: "1 - NOV Current",
+  //   title1:
+  //     "Selected for the Full-Stack Web Development Internship Program at Prodigy InfoTech, where I gained hands-on experience in building and deploying full-stack applications.",
+  //   title2:
+  //     " The internship focused on enhancing practical skills in front-end and back-end development, task management, and professional communication through structured project-based learning.",
+  //   icon: "/assets/prodigyinfotech_logo.svg",
+  //   animation: "salute",
+  // },
 ];
